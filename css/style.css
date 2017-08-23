@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    zoom: 1;   /*for IE 6,7*/
+}
+body{
+    width: 1248px;
+    margin: 0 auto;
+}
+nav{
+    position: fixed;
+    z-index: 999;
+}
+nav ul li{
+    float: left;
+    width: 102px;
+    line-height: 58px;
+    text-align: center;
+    border-right: 1px solid #252947;
+    background: #191d3a;
+}
+nav ul .img{
+    padding: 0 40px 0 124px;
+    width: auto;
+    height: 58px;
+}
+nav ul li a{
+    color: #818496;
+}
+nav ul li:hover,nav ul .first{
+    background: #252947;
+}
+nav ul li:hover a,nav ul .first a{
+    color: #e2e4ed;
+}
+nav ul .normal{
+    padding: 0 138px 0 40px;
+    width: auto;
+}
+nav ul .normal a{
+    padding: 8px 24px;
+    color: #fff;
+    background: #38b774;
+    border-radius: 4px;
+}
+.main{
+    position: relative;
+    top: 58px;
+    padding-bottom: 18px;
+    background: url("../images/indexmainbg.jpg") no-repeat bottom;
+}
+.main .banner ul{
+    margin: 0 auto;
+    padding: 430px 0 20px 550px;
+    background: url("../images/banner.jpg") no-repeat center;
+}
+.main .banner ul li{
+    float: left;
+    text-align: center;
+}
+.main .banner ul .first i,.main .banner ul li:hover i{
+    border-color: #fff;
+}
+.main .banner ul li i{
+    margin: 0 7px 0 7px;
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border: 7px solid #fede90;
+    border-radius: 50%;
+}
+.main .video{
+    padding: 0 100px;
+}
+.main .video ul li{
+    float: left;
+    padding: 50px 20px;
+    line-height: 28px;
+    text-align: center;
+}
+.main .video ul li a{
+    color: #44487d;
+    font-size: 14px;
+}
+.main .video ul li a span{
+    margin-right: 6px;
+    color: #38b774;
+    font-size: 12px;
+}
+.main .video ul li a .pic{
+    height: 130px;
+}
+.main .video .dot span{
+    float: left;
+    display: block;
+    width: 442px;
+    border-bottom: 1px solid #dbe1e7;
+}
+.main .video .dot .left{
+    margin:  7px 0 0 20px;
+}
+.main .video .dot .right{
+    margin:  7px 20px 0 0;
+}
+.main .video .dot ul {
+    float: left;
+}
+.main .video .dot ul li{
+    float: left;
+    padding: 0;
+    text-align: center;
+}
+.main .video .dot ul .first i,.main .video .dot ul li:hover i{
+    border-color: #2fbc71;
+}
+.main .video .dot ul li i{
+    margin: 0 7px;
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border: 7px solid #b5c0cb;
+    border-radius: 50%;
+}
+.main .video .more{
+    padding: 40px 14px;
+}
+.main .video .more .news{
+    float: left;
+    width: 500px;
+    height: 310px;
+    background: url("../images/bynewsbg.jpg") no-repeat;
+}
+.main .video .more .news a img{
+    margin: 40px 214px;
+}
+.main .video .more .news p{
+    padding: 0;
+    margin: 0 20px;
+    line-height: 50px;
+    border-bottom: 1px solid #dbe1e7;
+}
+.main .video .more .news p a{
+    color: #444866;
+    font-size: 14px;
+}
+.main .video .more .news p a span{
+    color: #afcce4;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.main .video .more .job{
+    float: left;
+    width: 500px;
+    height: 310px;
+    background: url("../images/byhrbg3.jpg") no-repeat;
+}
+.main .video .more .job img{
+    margin: 40px 0 0 80px;
+}
+.main .video .more .job a img{
+    margin: 0 0 18px 18px;
+}
+.main .video .more .job ul{
+    display: block;
+    padding: 0 176px 0 18px;
+}
+.main .video .more .job p{
+    margin: 0 176px 0 18px;
+    color: #fff;
+    font-size: 14px;
+    border-bottom:1px solid #fff;
+}
+.main .video .more .job .title{
+    margin-top: 20px;
+    border: none;
+}
+.main .video .more .job p a{
+    color: #fff;
+    line-height: 38px;
+}
+.main .top{
+    position: fixed;
+    right: 66px;
+    bottom: 76px;
+}
+.main .top a{
+    padding: 8px 12px 8px 28px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    background: #c7d6e5;
+    border-radius: 4px;
+}
+.main .top a i:after{
+    position: relative;
+    top: -10px;
+    left: -10px;
+    content: "";
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-bottom-color: #fff;
+}
+footer{
+    margin-top: 60px;
+    line-height: 84px;
+    background: #191d3a;
+    font-size: 12px;
+    color: #6c6e7e;
+}
+footer span{
+     margin: 0 50px 0 128px;
+ }
+footer img{
+    margin: 20px 0 -20px -40px;
+    height: 56px;
+}
